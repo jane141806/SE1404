@@ -27,7 +27,7 @@ public class MyToysTest {
     @Test // Annotation convert any methods to public static method in main
     public void testSuccessfulCases() {
         assertEquals(1, cF(0)); // it compare color with result
-        assertEquals(1, cF(2));
+        assertEquals(2, cF(2));
         assertEquals(6, cF(3));
         assertEquals(24, cF(4));
         assertEquals(120, cF(5));
